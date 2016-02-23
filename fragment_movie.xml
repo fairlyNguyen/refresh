@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.fairlynguyen.demoproject.fragment.MovieFragment">
+
+    <TextView
+        android:id="@+id/movieTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Movie" />
+
+    <Button
+        android:id="@+id/btnSetName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="set name study" />
+
+    <Button
+        android:id="@+id/btnSetName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="set name game" />
+
+    <Button
+        android:id="@+id/btnSetName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="set name all" />
+</LinearLayout>
